@@ -1,0 +1,63 @@
+29.git hub us acquired by which product company
+->microsoft
+
+30.security permission in sonarqube
+->1.onboard authentication
+  2.authorization mechanism
+  3.the ability to force users to authenticate user before they can see any part
+  4.the ability to delegate to authentication
+
+31.git pull command is combination of ___ and ____
+->gitfetch and gitmerge
+
+32.default location of local repository?
+->${user.home}/.m2/repository
+
+33.which of the following is not maven goal?
+->debug is not mevan goal
+  (clean, install,package are maven goal)
+
+34.which is a projects fully qualified artifact name?
+-> :: is the ans
+
+35.search server hosted on which port?
+->its ranges from 9200-9300
+
+36.git is ____ version control system tool?
+-> distributed version control system
+
+37.how much space do we get on each repository
+->size limit of 100GB
+
+38.what is pre-requisite for installing sonarqube on machine
+->java(Oracle JRE 8 or OpenJDK 8) installed on your machine
+
+39.what is sonarqube scanner
+->open-source automatic code review tool to detect bugs, vulnerabilities and code smell in your code
+
+40.how many github repository can a user create in a single account
+->GitHub Free now includes unlimited private repositories.
+  For the first time, developers can use GitHub for their private
+  projects with up to three collaborators per repository for free
+
+41.how to copy the github repository from other repository to your account
+->1.On GitHub, navigate to the main page of the repository.
+  2.Above the list of files, click Code.
+  3.To clone the repository using HTTPS, under "Clone with HTTPS", click . ...
+  4.Open Terminal .
+  5.Change the current working directory to the location where you want the cloned directory.
+
+42.which sonarqube editor is free and open source
+->
+
+43.maven structure
+->
+
+44.pom stands for
+->pom-project object model
+
+45.sonarqube supports which os?
+->windows,linux(SonarQube scanners require version 8 or 11 of the JVM and the SonarQube server requires version 11)
+
+46.___ is the name of jar without version
+->
