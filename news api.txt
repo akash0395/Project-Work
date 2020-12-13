@@ -1,0 +1,1 @@
+http://newsapi.org/v2/everything?q=%27.sports.%27&from=2020-12-12&sortBy=publishedAt&apiKey=6004c562f1a34a3dbec8032b5377ede9
