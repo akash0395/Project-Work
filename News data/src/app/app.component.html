@@ -1,0 +1,13 @@
+<header>
+  <nav>
+    <a routerLink="/home" >Home</a>    
+    <a routerLink="/admin" *ngIf="userrole==='ROLE_ADMIN'">Admin</a>
+    <a routerLink="/user" *ngIf="userrole==='ROLE_USER'">User</a>
+    <a routerLink="#" *ngIf="userrole" (click)="logout()">Logout</a>
+  </nav>
+</header>
+<hr>
+ 
+<router-outlet></router-outlet>
+
+<footer>footer of the page</footer>

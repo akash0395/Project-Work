@@ -1,0 +1,18 @@
+<h1>Login form</h1>
+<p [ngStyle] = "{'color': 'red'}" *ngIf="message">{{message}}</p>
+<form method="POST" #loginform="ngForm" (ngSubmit)="onSubmit()">
+    username: <input type="text" name="username" [(ngModel)]="username" (change)="getByUsername()">
+    <br>
+    password: <input type="password" name="password" [(ngModel)]="password">
+    <input type="submit" value="login">
+</form>
+
+<section>
+    <div class="newsbox">
+        
+        <div class="backimg" style="background-image: url({{news[num].urlToImage}}); opacity: 0.8;">
+        {{news[num].title}}</div>
+      <button (click)="count()">Next</button>
+        
+    </div>
+</section>
